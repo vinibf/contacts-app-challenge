@@ -12,14 +12,10 @@ class App extends React.Component {
     return (
       <React.Fragment>
         <Topbar />
-
         <Filters />
-
-        <div className="container">
-          <section className="contacts">
-            <Contact />
-          </section>
-        </div>
+        <Contacts>
+          <Contact />
+        </Contacts>
       </React.Fragment>
     )
   }
